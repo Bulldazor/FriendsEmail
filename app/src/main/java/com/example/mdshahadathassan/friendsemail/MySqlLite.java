@@ -17,7 +17,7 @@ public class MySqlLite extends SQLiteOpenHelper {
     private static final String TABLE_NAME="mytable"; //user define table name.
     private static final String COLUMN1="ID";
     private static final String COLUMN2="Name";
-    private static final String COLUMN3="Email Id";
+    private static final String COLUMN3="Email";
 
     public MySqlLite(Context context){
         super(context,DATABASE_NAME,null,DATABASE_VERSION);
